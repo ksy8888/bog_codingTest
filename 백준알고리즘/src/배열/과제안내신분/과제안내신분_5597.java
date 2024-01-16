@@ -11,7 +11,7 @@ public class 과제안내신분_5597 {
 		//학생 30명 출석번호는 1번부터 30번까지
 		int[] stu_nums = new int[31];	//배열값들 0으로 초기화
 		
-		//과제 제출한 학생의 출석번호 입력
+		//과제 제출한 학생의 출석번호 입력.
 		for(int i=1; i<=28; i++) {
 			//출석번호에 해당하는 배열 원소의 값을 1로 증가
 			stu_nums[Integer.parseInt(br.readLine())]++;

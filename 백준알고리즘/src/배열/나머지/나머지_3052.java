@@ -7,8 +7,8 @@ public class 나머지_3052 {
 	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-		//어떤 수를 n으로 나누었을 때 나머지가 나올 수 있는 수는 0~n-1까지
-		//nums 배열은 0부터 41까지의 각 숫자가 입력받은 숫자들의 42로 나눈 나머지 중 하나인지를 나타냄
+		//어떤 수를 n으로 나누었을 때 나머지가 나올 수 있는 수는 0~n-1까지.
+		//nums 배열은 0부터 41까지의 각 숫자가 입력받은 숫자들의 42로 나눈 나머지 중 하나인지를 나타냄 
 		boolean[] nums = new boolean[42];
 		//
 		for(int i=0; i<10; i++) {
