@@ -10,7 +10,7 @@ public class 문자와문자열_27866 {
 		String S = br.readLine(); //Sprout 
 		int I = Integer.parseInt(br.readLine()); //3
 		
-		for(int i=1; i<=S.length(); i++) {
+		for(int i=1; i<=S.length(); i++) { 
 			if(i == I) {
 				System.out.println(S.substring(I-1,I));
 			}
