@@ -24,9 +24,12 @@ public class 평균_1546 {
 				max = score[j];
 			}
 		}
+		
 		for(int j=0; j<N; j++) {
-			score[j] = score[j]/max*100;
+			score[j] = score[j]/max*100; //점수 변환시키기
+			sum += score[j];   //변환시킨 점수를 합계에 더하기
 		}
+		//평균 출력@@
 		System.out.println(sum/(double)N);
 		
 	}
