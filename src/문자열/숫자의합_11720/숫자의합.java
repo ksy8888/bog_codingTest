@@ -1,7 +1,6 @@
 package 문자열.숫자의합_11720;
 
 import java.io.*;
-import java.util.*;
 
 public class 숫자의합 {
     public static void main(String[] args) throws IOException {
