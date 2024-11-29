@@ -14,7 +14,7 @@ public class croatia {
 
             // 크로아티아 알파벳을 처리
             for (String str : cro) {
-                int index = input.indexOf(str);
+                int index = input.indexOf(str); //indexOf(str) -> 값 없으면 -1 반환
                 while (index != -1) {
                     cnt--; // 크로아티아 알파벳 하나를 찾을 때마다 길이를 줄임
                     index = input.indexOf(str, index+1); // 다음 크로아티아 알파벳 위치 찾기
