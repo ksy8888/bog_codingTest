@@ -28,7 +28,7 @@ public class wordStudy {
         for(int i=0; i<cnt.length; i++) {
             if(cnt[i] > max) {
                max = cnt[i];
-               maxChar = (char)(i + 'A');
+               maxChar = (char)(i + 'A');   //배열 인덱스 i를 문자로 변환하기위함.
                isDuplicate = false;
             } else if(cnt[i] == max) {
                 isDuplicate = true; 
